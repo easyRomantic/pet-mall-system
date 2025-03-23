@@ -1,0 +1,37 @@
+spring:
+  mail:
+    # Sending mail server
+    host: smtp.163.com
+    # Email address for sending emails
+    username: bDoly3etf13m443PORHr9Xs2rcfgmw6UlfU6Di9E810Uh8Tq8Vey5NROPTzkoF0OCcqkuilshPnZ8265CdKvqA==
+    # Client authorization code
+    password: Aid4dayAgpvTHTlBJxTcyw7BKLKPR1vdMX/k4LNCkJ+e1Lu1tPQu2YTdYoBas5ePY9UeCnpeOjibEiOBGh46rQ==
+    # 465 or 994
+    properties.mail.smtp.port: 994
+    nickname: xxxx
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+
+sms:
+  aliyun:
+    # accessKeyID
+    accessKeyID: Pi0XBxmVDiBcc4dAPWFTihkNSuoAPKj3MIEyGhk2wgDuN7Q2es+PL/skEU2SBhOzhnANYqjg+BmCkDg4Yb2xEw==
+    # accessKeySecret
+    accessKeySecret: 13Lt+OVG7CBiLshYIZ0+N/8iwqXxRCheIJlj/tZfKvq3R2SfHCJ4Mdduo4xsklCSWfBEyqjveee7zqAwTnyK+g==
+    domain: dysmsapi.aliyuncs.com
+    regionId: cn-hangzhou
+    # your template code
+    templateCode: SMS_205882311
+    # your signature
+    signName: singure
+
+oss:
+  bucketName: code51cn
+  accessKeyId: LTAI5t8Lc5gJq3F4QsxbwJCv
+  accessKeySecret: so8zRPEXg6KuBoBMPRpFLsWl7sgPDJ
+  # OSS region
+  endpoint: oss-cn-hangzhou.aliyuncs.com
+  bucket: https://spring-oss.oss-cn-beijing.aliyuncs.com
+  fileHost: https://code51cn.oss-cn-hangzhou.aliyuncs.com/
